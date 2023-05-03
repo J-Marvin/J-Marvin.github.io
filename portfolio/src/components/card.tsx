@@ -6,6 +6,8 @@ interface CardProps {
     image: string
 }
 
+
+
 export default function Card({title, description, image}: CardProps) {
 
 }

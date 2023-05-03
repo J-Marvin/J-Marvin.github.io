@@ -1,13 +1,16 @@
 
 import Head from 'next/head';
-import { TiRadarOutline } from 'react-icons/ti';
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import ProfilePic from '@/components/profilePic';
+import NavBar from '@/components/navbar';
+import Link from 'next/link';
+import Introduction from '@/components/introduction';
 
 // https://www.youtube.com/watch?v=k-Pi5ZMxHWY
 // TODO:
 // Add technical skills/passions?
 // Add projects (Proudest of first)
+// Fix socmed links
 export default function HomePage() {
 	return (
 		<div>
@@ -22,31 +25,29 @@ export default function HomePage() {
 
 			<main className="bg-white px-10">
 				<section className="min-h-screen">	
-					<nav className="p-10 mb-12 flex justify-between">
-						<h1 className="text-xl">developed by ML	 </h1>
-						<ul className="flex items-center">
-							<li><TiRadarOutline className="" /></li>
-							<li><a className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" target="_blank" href="/files/Resume.pdf">Resume</a></li>
-						</ul>
-					</nav>
-
-					<ProfilePic/>
-
-					<div className="text-center p-10 flex flex-col items-center">
-						<h2 className="text-5xl py-2  text-teal-600 font-medium">Jan Marvin Lim</h2>
-						<h3 className="text-2xl py-2">A Developer.</h3>
-						<p className="text-md py-5 md:px-10 lg:w-4/6 leading-8 text-gray-800">
-							I'm a Computer Science student currently studying at De La Salle University, Philippines. I aspire to be a software engineer, I love what I do, and I'm excited for the challenges that await me!
-
-						</p>
-					</div>
+					
+					<NavBar />
+					<ProfilePic />
+					<Introduction />
 					<div className="text-5xl flex justify-center gap-16 py-3">
-						<AiFillLinkedin />
-						<AiFillGithub />
+						<a href="https://linkedin.com/in/janmarvinlim" target="_blank"><AiFillLinkedin /></a>
+						<a href="https://github.com/J-Marvin" target="_blank"><AiFillGithub /></a>
 					</div>
 				</section>
+				<section>
+					<h3 className="text-3xl py-1">Projects</h3>
+					<p className='text-md py-2 px-10 leading-8 text-gray-800'></p>
+				</section>
+				<section>
+					<h3 className='text-3xl py-1'>Skills and Interests</h3>
+					<p className='text-md py-2 px-10 leading-8 text-gray-800'>
+						Over the course of my journey as a Computer Science student, I have delved in
+						different fields of study such as <span>Natural Language Processing</span> and <span>Data Science</span>. 
+						Along the way, I have  
+						I have collaborated with amazing people to create applications I am proud of today!
 
-				<section></section>
+					</p>
+				</section>
 			</main>
 		</div>
 

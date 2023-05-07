@@ -1,13 +1,29 @@
 import { Component } from "react";
-
-interface CardProps {
-    title: string,
-    description: string,
-    image: string
-}
+import Link from 'next/link';
+import Image from 'next/image';
+import Features from "./features";
+import { ProjectProps } from "@/lib/projects";
 
 
+export default function Card({title, desc, image, features, link}: ProjectProps) {
+    return (
+        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+                {
+                    image ? (
+                        <div className="flex justify-center">
+                            <Image src={`/images/` + image} width={100} height={100} alt="logo" />
+                        </div>
+                    ): <></>
+                }
+                <h3 className="text-lg font-medium pt-8 pb-2">
+                    {title}
+                </h3>
+                <p className="py-2">
+                    {desc}
+                </p>
+                {features.length > 0 ? <Features features={features}/> : <></>}
 
-export default function Card({title, description, image}: CardProps) {
-
+                {link ? <Link href={link} target="_blank">Link</Link>: <></>}
+        </div>
+    );
 }

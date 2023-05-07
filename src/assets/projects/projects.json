@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Brewcipe",
+        "image": "brewcipe.png",
+        "desc": "A coffee sharing web application built using BootStrap and Express using MongoDB to store information.",
+        "features": ["Using bla bla bla to build bla bla"],
+        "link": "https://brewcipe.onrender.com/"
+    },
+
+    {
+        "title": "Budget Builder",
+        "image": "brewcipe.png",
+        "desc": "Gamified budgeting android application.",
+        "features": ["Using bla bla bla to build bla bla"],
+        "link": "https://brewcipe.onrender.com/"
+    }
+]

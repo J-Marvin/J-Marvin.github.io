@@ -4,7 +4,7 @@ interface featuresProps {
 
 export default function Features({ features }: featuresProps) {
     return (
-        <div>
+        <div className="mb-2">
             <h4 className="py-4 text-teal-600">
                 Features
             </h4>

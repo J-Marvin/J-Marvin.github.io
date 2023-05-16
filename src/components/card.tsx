@@ -4,14 +4,13 @@ import Image from 'next/image';
 import Features from "./features";
 import { ProjectProps } from "@/lib/projects";
 
-
 export default function Card({title, desc, image, features, link}: ProjectProps) {
     return (
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
                 {
                     image ? (
                         <div className="flex justify-center">
-                            <Image src={`/images/` + image} width={100} height={100} alt="logo" />
+                            <Image src={`/images/` + image} width={80} height={80} alt="logo" />
                         </div>
                     ): <></>
                 }
@@ -23,7 +22,8 @@ export default function Card({title, desc, image, features, link}: ProjectProps)
                 </p>
                 {features ? (features.length > 0 ? <Features features={features}/> : <></>):<></>}
 
-                {link ? <Link href={link} target="_blank">Link</Link>: <></>}
+                
+                {link ? <Link href={link} target="_blank"><span className="text-blue-600">Link</span></Link>: <></>}
         </div>
     );
 }

@@ -1,0 +1,44 @@
+[
+    {
+        "title": "NLP",
+        "image": "brewcipe.png",
+        "desc": "A coffee sharing web application built using BootStrap and Express using MongoDB.",
+        "features": [
+            "Users can make their own accounts",
+            "Users can create recipes and share them on the web application",
+            "Users can also comment on posts as well as liking and bookmarking posts"
+            ],
+        "link": "https://brewcipe.onrender.com/"
+    },
+
+    {
+        "title": "Data Science",
+        "image": "brewcipe.png",
+        "desc": "Gamified budgeting android application.",
+        "features": [
+            "Users can record their expenses as well as view possible trends in their spending",
+            "Users can set budgets to limit their expenses",
+            "Users earn coins by staying within their budget",
+            "Users can spend coins personalizing their own virtual room which is reset at the start of a financial period"
+        ],
+        "link": ""
+    },
+
+    {
+        "title": "Hackerrank",
+        "image": "brewcipe.png",
+        "desc": "A serious tower defense game aimed to teach players about how the immune system works.",
+        "features": ["Users can place towers to defend against hordes of enemies",
+            "Users can learn about the immune system as the game progresses"
+            ],
+        "link": ""
+    },
+
+    {
+        "title": "Languages",
+        "image": "",
+        "desc": "Other projects I have worked on the past.",
+        "features": [],
+        "link": ""
+    }
+]

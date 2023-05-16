@@ -13,7 +13,7 @@
 
     {
         "title": "Budget Builder",
-        "image": "brewcipe.png",
+        "image": "budget_builder.png",
         "desc": "Gamified budgeting android application.",
         "features": [
             "Users can record their expenses as well as view possible trends in their spending",
@@ -26,15 +26,17 @@
 
     {
         "title": "ImuunoTD",
-        "image": "brewcipe.png",
-        "desc": "A tower defense game aimed to teach players about how the immune system works.",
-        "features": ["Using bla bla bla to build bla bla"],
-        "link": "https://brewcipe.onrender.com/"
+        "image": "virus.png",
+        "desc": "A serious tower defense game aimed to teach players about how the immune system works.",
+        "features": ["Users can place towers to defend against hordes of enemies",
+            "Users can learn about the immune system as the game progresses"
+            ],
+        "link": ""
     },
 
     {
         "title": "Other minor projects",
-        "image": "",
+        "image": "code.png",
         "desc": "Other projects I have worked on the past.",
         "features": [],
         "link": ""

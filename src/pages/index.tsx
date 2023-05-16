@@ -63,7 +63,7 @@ export default function HomePage({ projects } : HomeProps) {
 					</div>
 					<div className="lg:flex gap-10">
 						{projects.map( project => (
-							<Card title={project.title} desc={project.desc} image={project.image} features={project.features} link={project.link}/>
+							<Card key={project.title} title={project.title} desc={project.desc} image={project.image} features={project.features} link={project.link}/>
 						))}
 					</div>
 					

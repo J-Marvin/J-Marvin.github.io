@@ -21,7 +21,7 @@ export default function Card({title, desc, image, features, link}: ProjectProps)
                 <p className="py-2">
                     {desc}
                 </p>
-                {features.length > 0 ? <Features features={features}/> : <></>}
+                {features ? (features.length > 0 ? <Features features={features}/> : <></>):<></>}
 
                 {link ? <Link href={link} target="_blank">Link</Link>: <></>}
         </div>

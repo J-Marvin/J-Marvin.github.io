@@ -1,29 +1,73 @@
 [
     {
-        "title": "NLP",
+        "title": "Natural Language Preprocessing",
         "image": "brewcipe.png",
         "desc": "A coffee sharing web application built using BootStrap and Express using MongoDB.",
-        "features": [
-            "Users can make their own accounts",
-            "Users can create recipes and share them on the web application",
-            "Users can also comment on posts as well as liking and bookmarking posts"
-            ],
-        "link": "https://brewcipe.onrender.com/"
+        "competencies": [
+            "Preprocessing",
+            "Language Modelling",
+            "Text Generation",
+            "Stanford CoreNLP",
+            "Tensorflow"
+            ]
     },
 
     {
-        "title": "Data Science",
+        "title": "Web Development",
         "image": "brewcipe.png",
         "desc": "Gamified budgeting android application.",
-        "features": [
-            "Users can record their expenses as well as view possible trends in their spending",
-            "Users can set budgets to limit their expenses",
-            "Users earn coins by staying within their budget",
-            "Users can spend coins personalizing their own virtual room which is reset at the start of a financial period"
-        ],
-        "link": ""
+        "competencies": [
+            "Javascript",
+            "NodeJs",
+            "Handbars",
+            "Bootstrap",
+            "ReactJS",
+            "NextJS",
+            "Tailwind CSS"
+        ]
     },
 
+    {
+        "title": "Cloud-Based Technologies",
+        "image": "brewcipe.png",
+        "desc": "Gamified budgeting android application.",
+        "competencies": [
+            "AWS"
+        ]
+    },
+
+    {
+        "title": "Mobile Development",
+        "image": "brewcipe.png",
+        "desc": "Gamified budgeting android application.",
+        "competencies": [
+            "Android Development",
+            "Kotlin",
+            "Java"
+        ]
+    },
+
+    {
+        "title": "Game Development",
+        "image": "brewcipe.png",
+        "desc": "Gamified budgeting android application.",
+        "competencies": [
+            "Unity",
+            "C#"
+        ]
+    },
+
+    {
+        "title": "Database Management",
+        "image": "brewcipe.png",
+        "desc": "Gamified budgeting android application.",
+        "competencies": [
+            "MySQL",
+            "SQLite",
+            "NoSQL",
+            "MongoDB"
+        ]
+    },
     {
         "title": "Hackerrank",
         "image": "brewcipe.png",

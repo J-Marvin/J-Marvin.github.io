@@ -23,7 +23,11 @@ export default function Card({title, desc, image, features, link}: ProjectProps)
                 {features ? (features.length > 0 ? <Features features={features}/> : <></>):<></>}
 
                 
-                {link ? <Link href={link} target="_blank"><span className="text-blue-600">Link</span></Link>: <></>}
+                {link ? <Link href={link} target="_blank">
+                    <button className="mt-5 rounded-lg px-4 py-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white border border-blue-500 hover:border-transparent">
+                        <span>Link</span>
+                    </button>
+                </Link>: <></>}
         </div>
     );
 }

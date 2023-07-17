@@ -10,7 +10,7 @@ import ProjectCard from '@/components/projectCard';
 import { SkillProps, loadSkills } from '@/lib/skills';
 import SkillCard from '@/components/skillCard';
 import React from 'react';
-import { Fragment, useRef, useState } from 'react';
+import { Fragment} from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
 interface HomeProps {

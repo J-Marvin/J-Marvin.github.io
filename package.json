@@ -10,6 +10,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
